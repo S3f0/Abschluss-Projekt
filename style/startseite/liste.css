@@ -1,0 +1,27 @@
+.food-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none; 
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;  
+  position: absolute;
+  top: 60px; 
+  left: -55px; 
+  background-color: black;  
+  z-index: 9999;  
+  width: 150px;
+}
+
+.food-list li {
+  padding: 5px 0;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  padding-left: 50px;
+}
+
+.food-list.show {
+  display: block;  
+}
+
